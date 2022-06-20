@@ -151,3 +151,100 @@ margin-top: 5px;
     color: greenyellow;
     font-size: 300%;
 }
+/* ---capabilities--- */
+.capabilities{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.capabilities h5{
+    color: rgb(229, 255, 0);
+}
+.cap4{
+    margin-left: 3%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    height: 500%;
+}
+.cap2:hover{
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2);
+    visibility: visible;
+}
+.cap3:hover{
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2);
+    visibility: visible;
+}
+.cap4:hover{
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2);
+    visibility: visible;
+}
+
+.cap3{
+    margin-left: 3%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    height: 600%;
+}
+.cap2{
+    margin-left: 2%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    height: 500%;
+    transition: 2s ease-in;
+   
+}
+.fa-star{
+color: yellowgreen;
+margin-left: 60px;
+
+padding: 15px;
+border-radius: 10px;
+}
+.cap3 .fa-star{
+    background: rgb(66, 183, 229);
+}
+.cap2 .fa-star{
+    background: rgb(57, 250, 86);
+}
+.cap4 .fa-star{
+    background: rgb(64, 255, 0);
+}
+/* ------said--- */
+.said{
+    display: flex;
+    margin-top: 10%;
+}
+.image1{
+    display: flex;
+    margin-left: 8%;
+}
+.said p{
+    margin-left: 5px;
+    
+}
+#say{
+    margin-top:10% ;
+    font-size: 300%;
+    text-align: center;
+}
+.image2{
+    display: flex; 
+    margin-left: 7%;
+   
+}
+.image2 img{
+    border-radius: 20px;
+}
+.image1 img{
+    border-radius: 20px;
+   
+}
