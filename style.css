@@ -1,0 +1,153 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav bars */
+.logo {
+margin-left: 5%;
+}
+.logo b{
+    color: rgb(194, 189, 189);
+}
+.nav_bars{
+    display: flex;
+    flex-direction: row;
+}
+.nav_menu a{
+    margin-left:70px ;
+}
+.nav_menu a:hover{
+    color: orange;
+    transition: 2s;
+    cursor: pointer;
+}
+/* work */
+.work{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+   
+}
+.work img{
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.work_heading h1{
+    font-size: 300%;
+}
+.work_heading b{
+    color: greenyellow;
+}
+.work_heading{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.buttons{
+margin-top: 5px;
+
+}
+#btn1:hover{
+    box-shadow: 0 0 20px 0px rgba(80, 57, 89, 0.2);
+    /* background: rgb(216, 253, 160); */
+    transition: 1s;
+}
+#btn2:hover{
+    box-shadow: 0 0 20px 0px rgba(80, 57, 89, 0.2); 
+    /* background: rgb(217, 249, 169); */
+    transition: 1s;
+ 
+   
+}
+#btn1{
+    background: linear-gradient(green 0,rgb(121, 227, 183) );
+    border: none; 
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+#btn2{
+    background: linear-gradient(rgb(201, 178, 4) 0,rgb(216, 227, 121) );
+    border: none;
+    margin-left: 9px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+/* jobs */
+.jobs{
+    display: flex;
+    background: linear-gradient(rgb(54, 244, 54) 0, rgb(255, 255, 0) );
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2); 
+}
+.jobs b{
+    font-size: 60%;
+    color: #fff;
+}
+.jobs h1{
+    color: #fff;
+    margin-left: 10%;
+    padding: 10px;
+}
+/*-----hire---- */
+.hire img{
+    margin-left: 9%;
+}
+.hire{
+    display: flex;
+}
+.head1{
+     margin-left: 12%; 
+}
+.head1 h1{
+    font-size: 300%;
+}
+.head1 h5{
+    color: orange;
+}
+.skills button{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+  
+    border-radius: 10px;
+    background: linear-gradient(rgb(249, 200, 7) 0, rgb(203, 255, 31) );
+    margin-top: 15px;
+    /* -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75); */
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: all .5s;
+}
+.skills button:hover{
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2);
+    visibility: visible;
+   
+}
+.skills li{
+    margin-top: 10px;
+}
+#btnmatch{
+    margin-left: 6%;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2);
+    height: 100px;
+    width: 220px;
+    background-color: #fff3ff;
+    margin-top: -200%;
+    
+}
+#btnmatch b{
+    color: greenyellow;
+    font-size: 300%;
+}
