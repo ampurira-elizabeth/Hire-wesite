@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    /* overflow-y: hidden; */
 }
 .nav_bars{
     display: flex;
+    color: black;
 }
 .nav_menu a:hover{
     color: orange;
@@ -28,48 +30,194 @@
     color: greenyellow;
 }
 .africa h1{
-    font-size: 350%;
+    font-size: 360%;
 }
 .africa h5{
     margin-top: 10px;
     font-size: 100%;
 }
 /* -----inputs-- */
-.inputs{
+ .inputs{
      margin-top: -15%; 
     margin-left: 45%;
     display: flex;
     padding: 10px;
-    /* background:coral; */
-    border-radius: 10px; 
-}
-.input1 input{
-    width: 100%;
-    height: 30%;
-}
-.input3 input{
-    width: 100%;
-    height: 30%;
-}
-.input2 input{
-    width: 100%;
-    height: 30%;
-}
-.input4 input{
-    width: 100%;
-    height: 30%;
+     /* background:coral;   */
+      border-radius: 10px;  
+    cursor: pointer; 
+    width: 500px;
+ 
+ } 
+
+.inputs{
+display: flex;
 }
 
 .input3{
     margin-left: 20px;
 
 }
-.inputs button{
-    width: 230%;
-    height: 40%;
+#butn{
+    width: 200%;
+    height: 30%;
+    box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+    cursor: pointer;
+    transition: 2s ease-in;
     border: none;
     margin-top: 50px;
-    margin-left: -300px;
+    margin-left: -250px;
     border-radius: 20px;
     background: linear-gradient(green 0,rgb(227, 213, 121) );
 }
+/* -----work----- */
+.work{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+.image{
+    margin-left: 15%;
+}
+.work1 h1{
+    font-size: 330%;
+}
+.work b{
+    color: rgb(58, 57, 57);
+    margin-top: 40px;
+}
+.work li{
+    margin-top: 10px;
+   
+}
+.work img{
+    box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+    border-radius: 10px;
+}
+/* -----opportunity----- */
+.opportunity{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.opp1 button{
+   background-color: rgb(255, 208, 0);
+   color: white;
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 12px;
+   border: none;
+   width: 160px;
+   cursor: pointer;
+}
+.opp3{
+margin-left: 5%;
+transition: 5s ease; 
+
+
+}
+.opp1 h1{
+    font-size: 330%;
+}
+.opp2{
+margin-left: 5%;
+
+}
+.opp2 b{
+    color: yellowgreen;
+}
+.opp2 h1{
+  
+    font-size: 100%;
+}
+.opps{
+  margin-top:-90px ;
+  box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+}
+.opp2 img{
+    box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+    border-radius: 20px;
+}
+.hd3 {
+    margin-top: 20px;
+}
+.hd2 {
+    margin-top: 20px;
+}
+.hd1{
+    margin-top: 20px; 
+}
+/* -----skills---- */
+.skills{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 3%;
+}
+.skills p{
+    margin-top: 20px;
+}
+.skill{
+    color: #fff;
+    margin-top: 50px;
+    background: linear-gradient(green 0,rgb(232, 205, 28) );
+   padding: 50px;
+   
+}
+.btn{
+    font-size: 200%;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+    padding: 10px;
+} 
+.skill4{
+    margin-left: 8%;
+}
+.skill3{
+    margin-left: 7%;
+}
+.skill2{
+    margin-left: 6%;
+}
+/* ----hires--- */
+.hires{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 15%;
+    list-style: none;
+    
+}
+.hires li:hover{
+    list-style: disc;
+    cursor: pointer;
+}
+.hire2{
+    margin-left: 50%;
+}
+.connect{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.fa-linkedin{
+    background: rgb(118, 113, 113);
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.fa-linkedin:hover{
+    background: blue;
+    transition: 2s ;
+    
+}
+footer{
+    color: rgb(124, 122, 122);
+    margin-left: 5%;
+    font-size: 13px;
+    padding: 20px;
+}
+
+
+
