@@ -269,7 +269,9 @@ border-radius: 10px;
 .reads{
     margin-top: 10%;
     margin-left: 3%;
+    /* padding: 30px; */
 }
+
 .reads h4{
     color: orange;
 }
@@ -318,7 +320,7 @@ cursor: pointer;
     list-style: none;
     
 }
-.hires:hover{
+.hires li:hover{
     list-style: disc;
     cursor: pointer;
 }

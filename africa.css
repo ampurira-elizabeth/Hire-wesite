@@ -1,0 +1,75 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav_bars{
+    display: flex;
+}
+.nav_menu a:hover{
+    color: orange;
+    transition: 2s;
+    cursor: pointer;
+}
+.nav_bars a{
+    margin-left: 60px;
+}
+.banners{
+    display: flex;
+    margin-left: 5%;
+  
+}
+/* ---banners----- */
+.africa{
+    margin-left: 5%;
+}
+.africa b{
+    color: greenyellow;
+}
+.africa h1{
+    font-size: 350%;
+}
+.africa h5{
+    margin-top: 10px;
+    font-size: 100%;
+}
+/* -----inputs-- */
+.inputs{
+     margin-top: -15%; 
+    margin-left: 45%;
+    display: flex;
+    padding: 10px;
+    /* background:coral; */
+    border-radius: 10px; 
+}
+.input1 input{
+    width: 100%;
+    height: 30%;
+}
+.input3 input{
+    width: 100%;
+    height: 30%;
+}
+.input2 input{
+    width: 100%;
+    height: 30%;
+}
+.input4 input{
+    width: 100%;
+    height: 30%;
+}
+
+.input3{
+    margin-left: 20px;
+
+}
+.inputs button{
+    width: 230%;
+    height: 40%;
+    border: none;
+    margin-top: 50px;
+    margin-left: -300px;
+    border-radius: 20px;
+    background: linear-gradient(green 0,rgb(227, 213, 121) );
+}
