@@ -199,7 +199,7 @@ margin-top: 5px;
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     height: 500%;
-    transition: 2s ease-in;
+    transition: 10s ease-in;
    
 }
 .fa-star{
@@ -245,6 +245,107 @@ border-radius: 10px;
     border-radius: 20px;
 }
 .image1 img{
-    border-radius: 20px;
+    border-radius: 20px; 
+}
+/* ----bussiness--- */
+.bussiness{
+    display: flex;
+    margin-top: 10%;
+}
+.bussiness1:hover{
+    transition: 20s ease-in;
+}
+.bussiness img{
+    margin-left: 6%;
+}
+.business1{
+    margin-left: 8%;
+    margin-top: 4%;
+}
+.business1 h1{
+    font-size: 300%;
+}
+/* -----reads---- */
+.reads{
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.reads h4{
+    color: orange;
+}
+.line{
+    display: flex;
+}
+ hr{
+    width: 70%;
+    height: 30%;
+    margin-top: 2%;
+    color: rgb(247, 4, 4);
    
+}
+.reads1{
+    display: flex;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.reads1 h6{
+    color: rgb(148, 145, 145);
+}
+.reads1 p{
+    color: rgb(94, 91, 91);
+    margin-top: 10px;
+}
+
+.novel3{
+    margin-top: -2.5%;
+}
+.reads1 h5{
+    margin-top: 15px;
+}
+.reads1 h5:hover{
+color: blue;
+cursor: pointer;
+}
+.reads1 h3:hover{
+    color: blue;
+    cursor: pointer;
+    }
+/* -----hires----     */
+.hires{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 15%;
+    list-style: none;
+    
+}
+.hires:hover{
+    list-style: disc;
+    cursor: pointer;
+}
+.hire2{
+    margin-left: 50%;
+}
+.connect{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.fa-linkedin{
+    background: rgb(118, 113, 113);
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.fa-linkedin:hover{
+    background: blue;
+    transition: 2s ;
+    
+}
+footer{
+    color: rgb(124, 122, 122);
+    margin-left: 5%;
+    font-size: 13px;
+    padding: 20px;
 }
