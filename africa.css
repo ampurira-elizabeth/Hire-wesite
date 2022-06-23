@@ -111,10 +111,25 @@ display: flex;
 }
 .opp3{
 margin-left: 5%;
-transition: 5s ease; 
-
-
+/* transition: 5s ease;  */
 }
+.opp3 {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
 .opp1 h1{
     font-size: 330%;
 }
@@ -152,6 +167,12 @@ margin-left: 5%;
     margin-top: 30px;
     margin-left: 3%;
 }
+.skills i{
+    height: 10%;
+    width: 10%;
+    transform: translate(10s);
+    transition: 2s;
+}
 .skills p{
     margin-top: 20px;
 }
@@ -162,6 +183,22 @@ margin-left: 5%;
    padding: 50px;
    
 }
+ .skills{
+    animation-duration: 2s;
+    animation-name: bounce;
+  }
+  
+  /* @keyframes slidein {
+    from {
+      margin-bottom: 70%;
+      width: 300%;
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    } */
+  /* } */
 .btn{
     font-size: 200%;
     text-align: center;
