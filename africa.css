@@ -140,6 +140,25 @@ margin-left: 5%;
 .opp2 b{
     color: yellowgreen;
 }
+@property --num {
+    syntax: "<integer>";
+    initial-value: 100;
+    inherits: false;
+  }
+  
+  .btn b {
+    transition: --num 5s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+  }
+  .btn b::after {
+    content: counter(num) "+";
+  }
+  .btn b:hover {
+    --num: 200;
+  }
+  
+  
 .opp2 h1{
   
     font-size: 100%;
@@ -187,18 +206,6 @@ margin-left: 5%;
     animation-duration: 2s;
     animation-name: bounce;
   }
-  
-  /* @keyframes slidein {
-    from {
-      margin-bottom: 70%;
-      width: 300%;
-    }
-  
-    to {
-      margin-top: 0%;
-      width: 100%;
-    } */
-  /* } */
 .btn{
     font-size: 200%;
     text-align: center;

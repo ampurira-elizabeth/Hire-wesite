@@ -98,6 +98,23 @@ margin-top: 5px;
     margin-left: 10%;
     padding: 10px;
 }
+@property --num {
+    syntax: "<integer>";
+    initial-value: 50;
+    inherits: false;
+  }
+  
+  #num {
+    transition: --num 5s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+  }
+  #num::after {
+    content: counter(num) "+";
+  }
+  #num:hover {
+    --num: 5000;
+  }
 /*-----hire---- */
 .hire img{
     margin-left: 9%;
@@ -353,3 +370,6 @@ footer{
     font-size: 13px;
     padding: 20px;
 }
+/* #value{
+    font: 800 40px system-ui;
+} */

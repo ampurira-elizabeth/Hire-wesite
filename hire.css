@@ -1,0 +1,170 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-y: hidden; */
+}
+.nav_bars{
+    display: flex;
+    color: black;
+}
+.nav_menu a:hover{
+    color: orange;
+    transition: 2s;
+    cursor: pointer;
+}
+.nav_bars a{
+    margin-left: 60px;
+}
+.banners{
+    display: flex;
+    margin-left: 5%; 
+}
+/* ----headings--- */
+.banner{
+    display: flex;
+}
+.heading{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.heading h1{
+    font-size: 360%;
+}
+.heading p{
+    margin-top: 10px;
+    
+}
+.heading button{
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: yellowgreen;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2); 
+}
+.heading button:hover{
+    background: wheat;
+    transition: 5s;
+}
+/* -----access--- */
+.access{
+    margin-top: 60px;
+}
+.access h1{
+    margin-left: 20%;
+    font-size: 300%;
+}
+.access p{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+/* hire------ */
+.hire{
+    margin-left: 30%;
+    margin-top: 10%;
+    align-content: center;
+}
+.hire input{
+    height: 30px;
+    width: 500px;
+    background: rgb(213, 213, 213);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+  
+}
+.hire b{
+    color: rgb(255, 128, 0);
+}
+.hire h6{
+    margin-left: 40%;
+    margin-top: 30px;
+    color: rgb(98, 93, 93);
+}
+.hire input:hover{
+    box-shadow: 0 0 30px 0px rgba(46, 35, 50, 0.2);
+}
+
+.input1{
+    margin-top: 30px;
+}
+.input4{
+    margin-top: 30px;
+}
+.input2{
+    margin-top: 30px; 
+}
+.input3{
+    margin-top: 30px;
+}
+.hire button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: rgb(158, 160, 156);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+}
+.hire button:hover{
+    background: rgb(217, 215, 215);
+    transition: 2s ease-in;
+}
+.btn img{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.words{
+    margin-top: 10px;
+}
+.words li{
+    padding: 10px;
+}
+/* ----hires */
+.hired{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 15%;
+    list-style: none;
+    
+}
+.hired li:hover{
+    list-style: disc;
+    cursor: pointer;
+}
+.hire2{
+    margin-left: 50%;
+}
+.connect{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.fa-linkedin{
+    background: rgb(118, 113, 113);
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.fa-linkedin:hover{
+    background: blue;
+    transition: 2s ;
+    
+}
+footer{
+    color: rgb(124, 122, 122);
+    margin-left: 5%;
+    font-size: 13px;
+    padding: 20px;
+}
+.line hr{
+margin-top: 20px;
+}

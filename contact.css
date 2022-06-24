@@ -1,0 +1,129 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-y: hidden; */
+}
+.nav_bars{
+    display: flex;
+    color: black;
+}
+.nav_menu a:hover{
+    color: orange;
+    transition: 2s;
+    cursor: pointer;
+}
+.nav_bars a{
+    margin-left: 60px;
+}
+.banners{
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.banners h1{
+    font-size: 360%;
+}
+.inputs{
+    margin-top: -15%; 
+   margin-left: 45%;
+   display: flex;
+   padding: 10px;
+    /* background:coral;   */
+     border-radius: 10px;  
+   cursor: pointer; 
+   width: 500px;
+
+} 
+
+.inputs{
+display: flex;
+}
+
+.input3{
+   margin-left: 20px;
+
+}
+#butn{
+   width: 200%;
+   height: 30%;
+   box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+   cursor: pointer;
+   transition: 2s ease-in;
+   border: none;
+   margin-top: 50px;
+   margin-left: -250px;
+   border-radius: 20px;
+   background: linear-gradient(green 0,rgb(227, 213, 121) );
+}
+/* ----hello--- */
+.hello{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10%;
+}
+.hey h1{
+    font-size: 360%;
+}
+.email{
+    margin-left: 10%;
+}
+.email h1 {
+    color: #fff;
+}
+.email p {
+    color: #fff;
+}
+.hey{
+    margin-top: 10%;
+}
+.email2{
+margin-top: 30px;
+align-items: center;
+width: 200%;
+padding: 20px;
+text-align: center;
+border-radius: 20px;
+margin-bottom: 25px;
+box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+background: linear-gradient(rgb(92, 253, 17) 0,rgb(255, 222, 6) );
+/* background: linear-gradient(green 0,rgb(227, 213, 121) ); */
+}
+.email1{
+    width: 200%;
+    text-align: center;
+    box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+    margin-top: 30px;
+    align-items: center; 
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(rgb(92, 253, 17) 0,rgb(255, 222, 6) );
+    }
+.fa-envelope{
+    background: #fff;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+}  
+.fa-phone{
+    background: #fff;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 10px;  
+}  
+.email1 {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
