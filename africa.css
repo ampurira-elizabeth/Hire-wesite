@@ -5,6 +5,12 @@
     font-family: 'Poppins', sans-serif;
     /* overflow-y: hidden; */
 }
+/* body{
+    background-image: url(images/back3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+} */
 .nav_bars{
     display: flex;
     color: black;
@@ -60,7 +66,7 @@ display: flex;
 #butn{
     width: 200%;
     height: 30%;
-    box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
+    box-shadow: 20px 0 50px 0px rgba(18, 17, 18, 0.2); 
     cursor: pointer;
     transition: 2s ease-in;
     border: none;
@@ -261,6 +267,9 @@ footer{
     margin-left: 5%;
     font-size: 13px;
     padding: 20px;
+}
+form{
+    box-shadow: 0 0 50px 0px rgba(80, 57, 89, 0.2); 
 }
 
 

@@ -5,6 +5,12 @@
     font-family: 'Poppins', sans-serif;
     /* overflow-y: hidden; */
 }
+body{
+    background-image: url(images/back3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
 .nav_bars{
     display: flex;
     color: black;
