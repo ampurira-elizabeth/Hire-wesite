@@ -1,15 +1,50 @@
-function animateValue(obj, start, end, duration) {
-    let startTimestamp = null;
-    const step = (timestamp) => {
-      if (!startTimestamp) startTimestamp = timestamp;
-      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-      obj.innerHTML = Math.floor(progress * (end - start) + start);
-      if (progress < 1) {
-        window.requestAnimationFrame(step);
-      }
-    };
-    window.requestAnimationFrame(step);
-  }
+// // alert("accept the all the cookies");
+// $(function(){
+//   window.sr = ScrollReveal();
+//   if ($(window).width() < 768) {
+
+//     if ($('.capabilities').hasClass('js--fadeInLeft')) {
+//       $('.capabilities').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+//     }
+
+//     sr.reveal('.js--fadeInRight', {
+//       origin: 'right',
+//       distance: '300px',
+//       easing: 'ease-in-out',
+//       duration: 800,
+//     });
+
+//   } else {
+    
+//     sr.reveal('.js--fadeInLeft', {
+//       origin: 'left',
+//       distance: '300px',
+//       easing: 'ease-in-out',
+//       duration: 800,
+//     });
+
+//     sr.reveal('.js--fadeInRight', {
+//       origin: 'right',
+//       distance: '300px',
+//       easing: 'ease-in-out',
+//       duration: 800,
+//     });
+
+//   }
   
-  const obj = document.getElementById("value");
-  animateValue(obj, 100, 0, 5000);
+//   sr.reveal('.js--fadeInLeft', {
+//       origin: 'left',
+//       distance: '300px',
+//       easing: 'ease-in-out',
+//       duration: 800,
+//     });
+
+//     sr.reveal('.js--fadeInRight', {
+//       origin: 'right',
+//       distance: '300px',
+//       easing: 'ease-in-out',
+//       duration: 800,
+//     });
+
+
+// });
